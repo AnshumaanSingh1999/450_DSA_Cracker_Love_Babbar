@@ -1,13 +1,12 @@
+//Accepteds
 package Arrays;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 public class find_the_union_and_intersection_of_the_two_sorted_arrays {
     public static ArrayList<Integer> findSimilarity(ArrayList<Integer> arr1, ArrayList<Integer> arr2, int n, int m) {
         ArrayList<Integer> result=new ArrayList<>();
         HashSet<Integer> union=new HashSet<>();
         HashSet<Integer> intersection=new HashSet<>();
-        if(n>m){
+        if(n>=m){
             for(int i=0;i<m;i++){
                 if(arr1.contains(arr2.get(i))){
                     intersection.add(arr2.get(i));
