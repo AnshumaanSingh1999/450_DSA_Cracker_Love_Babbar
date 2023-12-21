@@ -30,9 +30,9 @@ public class sort_0_1_2 {
             }
             i++;  
         }
-        for(int x:arr){
-            System.out.println(x);
-        }
+        // for(int x:arr){
+        //     System.out.println(x);
+        // }
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
